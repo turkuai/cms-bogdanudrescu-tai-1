@@ -1,9 +1,7 @@
+<?php
 
-// PHP
-$varName = 7
+$d = 1213; 
+$a = "dsad";
 
-// JS
-let varName = 7
 
-// Python
-varName = 7
+?>

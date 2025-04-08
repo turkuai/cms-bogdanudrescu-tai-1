@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script>
+
+        function handleLoad() {
+            const title = localStorage.getItem("title")
+            document.getElementById("title").innerHTML = title
+        }
+
+        addEventListener("load", handleLoad)
+
+
+        let name = "Christos"
+
+    </script>
+
 </head>
+
 <body>
-    Hi
+    <h1 style="color: blue; background-color: black;" id="title">Test</h1>
+
+    <p dog="big" alt="pop">Some text here</p>
+    
+    <div class="vertical-container" id="test">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+    </div>
 </body>
+
 </html>
